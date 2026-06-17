@@ -1,6 +1,6 @@
 from .BaseController import BaseController
 from fastapi import UploadFile
-from src.routes.models import ResponseSignal
+from src.models import ResponseSignal
 class DataController(BaseController):
     def __int__(self):
         super.__init__()
