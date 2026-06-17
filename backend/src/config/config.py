@@ -8,6 +8,10 @@ class Settings(BaseSettings):
 
     GOOGLE_API_KEY:str
 
+    MONGODB_USERNAME:str
+    MONGODB_PASSWORD:str
+    MONGODB_URI:str
+    
     FILE_ALLOWED_TYPES:List
     FILE_MAX_SIZE:int
     FILE_DEFAULT_CHUNK_SIZE: int
