@@ -2,12 +2,9 @@ from .BaseDataModel import BaseDataModel
 import os
 from .enums import DataBaseEnum
 from .db_shcemas.conversation import Conversation
-<<<<<<< HEAD
-=======
 import math
 
 
->>>>>>> data
 class ConversationModel(BaseDataModel):
     def __init__(self, db_client: object):
         super().__init__(db_client=self.db_client)
