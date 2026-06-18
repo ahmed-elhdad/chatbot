@@ -1,4 +1,4 @@
-from pydactic import Field,BaseModel,validator
+from pydantic import Field,BaseModel,validator
 from typing import Optional,List
 from bson.objectid import ObjectId
 import datetime
