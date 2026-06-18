@@ -1,7 +1,7 @@
 from .BaseDataModel import BaseDataModel
 import os
 from .enums import DataBaseEnum
-from .db_shcemas import Conversation
+from .db_shcemas.conversation import Conversation
 class ConversationModel(BaseDataModel):
     def __init__(self,db_client:str):
         super().__init__(db_client=self.db_client)
