@@ -45,4 +45,4 @@ async def upload(request:Request,file:UploadFile,conversation_id:str,app_setting
             }
         )
     if not is_valid:
-        return JSONResponse(status=status.HTTP_400_BAD_REQUEST,content={"signal":signal})
+        return JSONResponse(status=status.HTTP_400_BAD_REQUEST,content={"signal":result_signal})
