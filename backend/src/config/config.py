@@ -16,6 +16,10 @@ class Settings(BaseSettings):
     FILE_MAX_SIZE: int
     FILE_DEFAULT_CHUNK_SIZE: int
 
+    JWT_SECRET_KEY: str
+    JWT_ALGORITHM: str 
+    JWT_ACCESS_TOKEN_EXPIRE_MINUTES: int = 60
+
     model_config = {
         "env_file": ".env",
         "extra": "ignore",
