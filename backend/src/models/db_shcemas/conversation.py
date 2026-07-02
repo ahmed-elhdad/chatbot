@@ -9,6 +9,7 @@ class Conversation(BaseModel):
     created_at:datetime.datetime
     updated_at: datetime.datetime 
     favorite:bool
+    assets:List
     messages:List
     
     class Config:
